@@ -59,6 +59,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    margin-top: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -69,6 +70,43 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-nav nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav img {
+    align-items: flex-start;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-nav nav a:hover {
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.top-nav nav img:hover {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.top-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 15px;
 }
 
 .top-content {
@@ -83,6 +121,27 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .middle-content {
@@ -101,7 +160,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,7 +169,147 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*input form referenced from w3 schools*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid gray; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  /* End of contact form referenced from w3 schools. */
 
 .bottom-content {
     display: flex;
@@ -129,6 +328,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 15px;
 }
 
 footer nav {
